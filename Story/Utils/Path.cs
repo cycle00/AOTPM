@@ -1,6 +1,6 @@
 using System;
 
-namespace AOTPM.Story {
+namespace AOTPM.Story.Utils {
     public abstract class Path {
         public abstract int NumOfSubPaths { get; set; }
         
