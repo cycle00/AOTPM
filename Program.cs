@@ -1,16 +1,20 @@
 using System;
 using System.Text;
 
-namespace AOTPM {
-    public class Program {
+namespace AOTPM 
+{
+    public class Program 
+    {
         public static string Name { get; private set; } = string.Empty;
 
-        public static void Main(string[] args) {
+        public static void Main(string[] args) 
+        {
             Console.WriteLine("Welcome to the story of the Attack of the Pig Monster!");
             Start();
         }
 
-        private static void Start() {
+        private static void Start() 
+        {
             Console.WriteLine("Please input your name.");
             Name = Console.ReadLine();
 
@@ -18,7 +22,8 @@ namespace AOTPM {
             Load();
         }
 
-        private static void Load() {
+        private static void Load() 
+        {
             
         }
     }
